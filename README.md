@@ -95,18 +95,6 @@ Saved to:
 ~/extracted_steam_ids.txt
 ```
 
-## Supported Patterns
-
-Regex currently detects:
-
-```regex
-addappid(<number>)
-setManifestid(<number>)
--- AppID <number>
-```
-
-Case-insensitive matching is enabled.
-
 ## Error Handling
 
 The script automatically handles:
@@ -115,20 +103,3 @@ The script automatically handles:
 - File read errors
 - Encoding issues (`utf-8` with ignored errors)
 - Empty scan results
-
-## Project Structure
-
-```text
-project/
-│
-├── id_extractor.py
-└── extracted_steam_ids.txt (generated)
-```
-
-## License
-
-MIT License
-
----
-
-Made for quickly extracting Steam App IDs from Lua configuration files.
