@@ -1,6 +1,6 @@
 # Steam App ID Extractor
 
-A simple Python utility that scans `.lua` files inside a folder and extracts **Steam App IDs** from specific patterns, then generates a formatted report automatically.
+A simple Python utility that scans `.lua` files downloaded from Openlua.cloud inside a folder and extracts **Steam App IDs** from specific patterns, then generates a formatted report automatically.
 
 ## Features
 
